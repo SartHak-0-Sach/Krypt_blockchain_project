@@ -7,7 +7,9 @@ import "./index.css";
 
 ReactDOM.render(
   <TransactionsProvider>
+    <React.StrictMode>
     <App />
+    </React.StrictMode>
   </TransactionsProvider>,
   document.getElementById("root"),
 );
