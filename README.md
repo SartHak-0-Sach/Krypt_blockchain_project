@@ -1,39 +1,111 @@
-<h1 align="center">Krypt - Web-3.0-Blockchain-Application</h1>
+# Krypt - Web 3.0 Blockchain Application  
 
-### Description
-Krypt is a `Web3.0 blockchain application` that enables users to send transactions over the blockchain, with each transaction being permanently recorded on the blockchain.
+## 🌐 Description  
+Krypt is a **Web 3.0 blockchain application** that allows users to send transactions over the blockchain. Each transaction is permanently recorded on the blockchain and paired with a gif for enhanced user experience.
 
-### Demo / UI
-<img src = "https://i.ibb.co/DVF4tNW/image.png"/>
-  
-### Main Functionalities:
+## 🎥 Demo / UI  
+<img src="https://i.ibb.co/DVF4tNW/image.png" alt="Krypt Demo UI" />
 
- - Users can connect their MetaMask wallets to send ethereum through the blockchain.
- - Each transaction will be paired with a gif and it will be forever stored on the blockchain.
- - Users can access and view their latest transactions (and the gifs associated with them).
+## ✨ Main Functionalities  
+- 🔗 **Connect MetaMask Wallet**: Users can connect their MetaMask wallet to initiate Ethereum transactions.  
+- 📜 **Blockchain-Paired Transactions**: Each transaction includes an accompanying gif and is permanently stored on the blockchain.  
+- 👀 **View Latest Transactions**: Users can access their recent transactions and see the gifs associated with them.  
 
-### Getting Started
-To get a local copy up and running follow these simple example steps.
+## 🚀 Getting Started  
 
-1. Clone the repo
-   ```sh
+### 🛠️ Steps to Run Locally  
+
+1. **Clone the Repository**:  
+   ```bash
    git clone https://github.com/prejin2310/Krypt---Web-3.0-Blockchain-Application.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm i
-   ```
-3. Start the app in development mode 
-   ```sh
-   npm run dev
-   ```
+   ```  
 
-### Built With
-- [Vite.js (react)](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Solidity](https://soliditylang.org/)
-- [Giphy API](https://developers.giphy.com/)
-- [Vercel](https://vercel.com/)
+2. **Navigate to the Project Directory**:  
+   ```bash
+   cd Krypt---Web-3.0-Blockchain-Application  
+   ```  
 
-### Reference
-* [Click Here](https://youtu.be/Wn_Kb3MR_cU))
+3. **Install Dependencies**:  
+   ```bash
+   npm i  
+   ```  
+
+4. **Run the Application in Development Mode**:  
+   ```bash
+   npm run dev  
+   ```  
+
+## 🧰 Built With  
+| **Technology**       | **Description**                                     |  
+|-----------------------|-----------------------------------------------------|  
+| [Vite.js (React)]     | Fast build tool and development environment for React. |  
+| [Tailwind CSS]        | Utility-first CSS framework for styling.            |  
+| [Solidity]            | Language for writing smart contracts.              |  
+| [Giphy API]           | API to fetch gifs for transactions.                |  
+| [Vercel]              | Hosting platform for fast and reliable deployments.|  
+
+## 📁 File Structure  
+
+```plaintext  
+client  
+├── images  
+│   ├── animated.svg  
+│   ├── hello.svg  
+│   ├── logo.png  
+├── src  
+│   ├── components  
+│   │   ├── Footer.jsx  
+│   │   ├── Loader.jsx  
+│   │   ├── Navbar.jsx  
+│   │   ├── Services.jsx  
+│   │   ├── Transactions.jsx  
+│   │   ├── Welcome.jsx  
+│   │   └── demo.jsx  
+│   ├── context  
+│   │   └── TransactionContext.jsx  
+│   ├── hooks  
+│   │   └── useFetch.jsx  
+│   ├── utils  
+│   │   ├── Transactions.json  
+│   │   ├── constants.js  
+│   │   ├── dummyData.js  
+│   │   └── shortenAddress.js  
+│   ├── App.css  
+│   ├── App.jsx  
+│   ├── favicon.svg  
+│   ├── index.css  
+│   ├── logo.svg  
+│   ├── main.jsx  
+│   └── index.js  
+├── .eslintrc.js  
+├── .gitignore  
+├── .prettierrc  
+├── README.md  
+├── index.html  
+├── package-lock.json  
+├── package.json  
+├── postcss.config.cjs  
+├── tailwind.config.cjs  
+├── vite.config.js  
+└── yarn.lock  
+
+smart_contract  
+├── contracts  
+│   └── Transactions.sol  
+├── scripts  
+│   └── deploy.js  
+├── test  
+│   └── sample-test.js  
+├── hardhat.config.js  
+├── package-lock.json  
+├── package.json  
+├── .gitignore  
+├── LICENSE  
+└── README.md  
+```  
+
+## 📜 License  
+This project is licensed under the MIT License.  
+
+### 📬 Feedback  
+Feel free to contribute to this project or suggest new features!
